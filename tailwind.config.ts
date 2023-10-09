@@ -22,8 +22,8 @@ const config: Config = {
         gray3: "rgba(37, 37, 37, 0.80)",
       },
       fontFamily: {
-        averia: ["Averia Serif Libre", "cursive"],
-        averiaLibre: ["Averia Libre", "cursive"],
+        averia: ["Averia Libre", "cursive"],
+        averiaLibre: ["Averia Serif Libre", "cursive"],
         averiaSans: ["Averia Sans Libre", "cursive"],
         rubik: ["Rubik", "sans-serif"],
       },

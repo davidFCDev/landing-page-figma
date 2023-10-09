@@ -24,14 +24,16 @@ const Footer = () => {
       <main className="z-30 absolute w-full pt-60 flex flex-col justify-center items-center">
         <img src="/bg-footer.png" alt="bg-footer" className="w-full relative" />
 
-        <h3 className="text-green py-5 font-semibold">© 2023 Edufy by Revise Online All Rights Reserved. </h3>
+        <h3 className="text-green py-5 font-semibold">
+          © 2023 Edufy by Revise Online All Rights Reserved.{" "}
+        </h3>
 
         <div className="z-40 absolute flex flex-col w-full px-44 py-36 gap-28">
           <div className="flex flex-col items-start gap-24">
             <h1 className="text-6xl font-averia font-semibold text-white">
               Ready for a surprise?
             </h1>
-            <button className="bg-yellow inline-flex px-5 py-3 justify-center items-center border-3 border-black rounded-full text-black text-4xl font-bold shadow-[-4px_4px_0_0_black] active:shadow-none transition-all active:-translate-x-1 active:translate-y-1">
+            <button className="bg-yellow font-averia inline-flex px-5 py-3 justify-center items-center border-3 border-black rounded-full text-black text-4xl font-bold shadow-[0px_3px_0_0_black] active:shadow-none transition-all active:translate-y-1 ">
               Let's do it!
             </button>
           </div>

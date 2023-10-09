@@ -3,7 +3,7 @@ const About = () => {
     <div className="flex bg-palid text-white font-averia w-full justify-center items-center z-0 relative py-20 rounded-[200px]">
       <img src="/map.png" alt="map" className="z-40 absolute left-10 top-10"/>
 
-      <div className="flex flex-col gap-6 items-center justify-center text-center bg-orange rounded-full w-[700px] p-28 tracking-wide">
+      <div className="flex flex-col gap-6 items-center justify-center text-center bg-orange rounded-full w-[680px] p-28 tracking-wide">
         <h1 className="text-6xl font-semibold">About</h1>
         <p className="text-xl leading-9">
           Edufy is a comprehensive digital platform designed to guide parents,

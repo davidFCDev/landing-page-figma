@@ -8,7 +8,7 @@ const Team = () => {
         You'll be in good company!
       </h1>
 
-      <div className="flex flex-col items-center justify-center gap-20 w-full px-12">
+      <div className="flex flex-col items-center justify-center gap-20 w-full px-32">
         <div className="flex justify-around w-full">
           <div className="flex gap-6 justify-start items-center">
             <img src="/users/user1.png" alt="user1" className="rounded-full" />
@@ -30,7 +30,7 @@ const Team = () => {
             <img src="/users/user2.png" alt="user2" className="rounded-full" />
             <div className="flex flex-col gap-2 justify-start w-[250px]">
               <h3 className="font-averiaLibre text-3xl font-semibold">
-                David Hankin
+                Emily Chater
               </h3>
               <p className="font-averiaSans">
                 Chemistry teacher with a 16 years of teaching experience
@@ -48,7 +48,7 @@ const Team = () => {
           <img src="/users/user3.png" alt="user3" className="rounded-full" />
           <div className="flex flex-col gap-2 justify-start w-[250px]">
             <h3 className="font-averiaLibre text-3xl font-semibold">
-              David Hankin
+              Sarah Langley
             </h3>
             <p className="font-averiaSans">
               Psychology Senior Lecturer with over 10 years of experience

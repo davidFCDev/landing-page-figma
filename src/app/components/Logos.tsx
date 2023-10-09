@@ -11,19 +11,19 @@ const Logos = () => {
       />
 
       <div className="z-20 absolute flex flex-col gap-32">
-        <div className="text-white px-20 flex items-start w-full gap-20">
-          <div className="flex flex-col gap-10 w-[600px]">
+        <div className="text-white px-20 flex items-start w-full gap-10">
+          <div className="flex flex-col gap-5 w-[700px]">
             <h4 className="text-xl uppercase font-rubik font-semibold tracking-[0.3em]">
               Partners
             </h4>
-            <h2 className="text-6xl font-semibold font-averia leading-[1.4em]">
+            <h2 className="text-7xl font-semibold font-averia leading-[1.2em]">
               Trusted by students at over 100 schools
             </h2>
           </div>
           <img
             src="/arrow.png"
             alt="arrow"
-            className="z-40 -bottom-28 relative"
+            className="z-40 -bottom-24 relative"
           />
         </div>
 
