@@ -11,7 +11,7 @@ const Nav = () => {
         <Link href="#" className="hover:text-orange">Resources</Link>
         <Link href="#" className="hover:text-orange">Blog</Link>
       </ul>
-      <button className="inline-flex justify-center items-center bg-orange text-white px-4 py-4 rounded-2xl">
+      <button className="inline-flex justify-center items-center bg-orange text-white px-4 py-4 rounded-2xl hover:bg-orange2">
         Sign Up
       </button>
     </div>
