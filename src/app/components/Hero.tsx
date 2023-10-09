@@ -14,8 +14,8 @@ const Hero = () => {
             academic pathways, we're your ultimate guide—crafted by Revise
             Online.
           </h3>
-          <div>
-            <button className=" bg-yellow inline-flex px-6 py-4 justify-center items-center border-3 border-black rounded-full text-black text-4xl font-bold shadow-[-6px_7px_0_0_black] hover:shadow-none transition-all hover:-translate-x-1 hover:translate-y-1">
+          <div className="z-40 relative">
+            <button className="bg-yellow inline-flex px-6 py-4 justify-center items-center border-3 border-black rounded-full text-black text-4xl font-bold shadow-[-6px_7px_0_0_black] hover:shadow-none transition-all hover:-translate-x-1 hover:translate-y-1">
               Explore
             </button>
           </div>
