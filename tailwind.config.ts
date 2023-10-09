@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         green: "#006B61",
         green2: "rgba(0, 0, 0, 0.10)",
+        dark: "rgba(8, 7, 8, 0.60)",
         orange: "#E3723B",
         orange2: "#f89360",
         yellow: "#FFC102",
