@@ -5,10 +5,10 @@ const Hero = () => {
     <main>
       <div className="flex flex-column justify-center items-end text-center pt-36">
         <div className="w-[52%] flex flex-col gap-10 z-20 relative top-8">
-          <h1 className="text-6xl font-bold font-averia">
+          <h1 className="text-6xl font-bold font-averia leading-[1.3em]">
             Navigating Tomorrow's Education
           </h1>
-          <h3 className="text-lg font-semibold font-averiaSans text-gray px-12">
+          <h3 className="text-lg font-semibold font-averiaSans text-gray px-12 leading-6">
             Edufy simplifies the educational journey from high school to
             university. Offering data-driven insights, scholarship options, and
             academic pathways, we're your ultimate guide—crafted by Revise
