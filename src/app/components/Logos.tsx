@@ -1,4 +1,3 @@
-import { logos } from "../constants";
 import CarrouselLogoOne from "./CarrouselLogoOne";
 import CarrouselLogoTwo from "./CarrouselLogoTwo";
 
