@@ -1,4 +1,5 @@
 import CarrouselTeamOne from "./CarrouselTeamOne";
+import CarrouselTeamTwo from "./CarrouselTeamTwo";
 
 const Team = () => {
   return (
@@ -7,7 +8,7 @@ const Team = () => {
         You'll be in good company!
       </h1>
 
-      <div className="flex flex-col items-center justify-center gap-16 w-full px-12">
+      <div className="flex flex-col items-center justify-center gap-20 w-full px-12">
         <div className="flex justify-around w-full">
           <div className="flex gap-6 justify-start items-center">
             <img src="/users/user1.png" alt="user1" className="rounded-full" />
@@ -60,7 +61,11 @@ const Team = () => {
           </div>
         </div>
 
-        <CarrouselTeamOne />
+        <div className="flex flex-col gap-6">
+          <CarrouselTeamOne />
+
+          <CarrouselTeamTwo />
+        </div>
       </div>
     </div>
   );
