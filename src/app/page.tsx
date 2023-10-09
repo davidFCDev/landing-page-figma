@@ -3,6 +3,7 @@ import Features from "./components/Features";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
+import Testimonial from "./components/Testimonial";
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Services />
       <Features />
       <About />
+      <Testimonial />
     </main>
   )
 }
