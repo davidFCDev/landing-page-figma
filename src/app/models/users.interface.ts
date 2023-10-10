@@ -3,4 +3,5 @@ export interface IUsers {
   name: string;
   description: string;
   text: string;
+  avatar: string;
 }
