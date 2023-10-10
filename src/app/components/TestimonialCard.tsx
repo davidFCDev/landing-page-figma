@@ -34,7 +34,7 @@ const TestimonialCard = () => {
         </h2>
 
         <div className="flex gap-4 justify-center items-center">
-          <img src={currentUser.avatar} alt="avatar" className="rounded-full" />
+          <img src={currentUser.avatar} alt="avatar" className="rounded-full w-16" />
           <div className="flex flex-col">
             <h4 className="font-semibold text-xl">{currentUser.name}</h4>
             <h5>{currentUser.description}</h5>
