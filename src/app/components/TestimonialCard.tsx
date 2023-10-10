@@ -18,28 +18,27 @@ const TestimonialCard = () => {
   const currentUser = cardUsers[currentIndex];
 
   return (
-    <div className="flex z-0 h-full relative flex-col items-center">
+    <div className="flex z-0 h-full relative flex-col items-center mr-10 sm:mr-0">
       <img
         src="/card-texture.png"
         alt="card texture"
-        className="bg-orange rounded-[100px] w-[34rem] h-[44rem] z-10 relative"
+        className="bg-orange rounded-[40px] sm:rounded-[80px] w-[17rem] sm:w-[34rem] h-[28rem] sm:h-[44rem] z-10 relative"
       />
 
-      <div className="bg-[#006b6028] rounded-[100px] w-[30rem] h-[40rem] -z-10 absolute rotate-[8.5deg] -right-10 bottom-0" />
+      <div className="bg-[#006b6028] rounded-[80px] w-[15rem] sm:w-[30rem] h-[26rem] sm:h-[40rem] -z-10 absolute rotate-[8.5deg] -right-7 sm:-right-10 bottom-0" />
 
-      <div className="bg-[#006b601d] rounded-[100px] w-[30rem] h-[37rem] -z-20 absolute rotate-[15deg] -right-14 bottom-0" />
+      <div className="bg-[#006b601d] rounded-[80px] w-[15rem] sm:w-[30rem] h-[23rem] sm:h-[37rem] -z-20 absolute rotate-[15deg] -right-10 sm:-right-14 -bottom-1" />
 
       <div className="flex flex-col z-20 absolute text-white h-full justify-around items-center">
-        
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 2 }}
           key={currentUser.id}
-          className="flex flex-col gap-14"
+          className="flex flex-col gap-10 sm:gap-14"
         >
-          <h2 className="text-4xl font-averia font-semibold text-center tracking-[0.05em] leading-[1.6em] px-20">
+          <h2 className="text-2xl sm:text-4xl font-averia font-semibold text-center tracking-[1px] leading-[35px] sm:leading-[60px] px-8 sm:px-20">
             {currentUser.text}
           </h2>
 
@@ -47,21 +46,33 @@ const TestimonialCard = () => {
             <img
               src={currentUser.avatar}
               alt="avatar"
-              className="rounded-full w-16"
+              className="rounded-full w-12 sm:w-16"
             />
             <div className="flex flex-col">
-              <h4 className="font-semibold text-xl">{currentUser.name}</h4>
-              <h5>{currentUser.description}</h5>
+              <h4 className="font-semibold text-sm sm:text-xl">
+                {currentUser.name}
+              </h4>
+              <h5 className="text-xs sm:text-lg">{currentUser.description}</h5>
             </div>
           </div>
         </motion.div>
 
         <div className="flex gap-3 items-center">
-          <button onClick={handlePrevious} className="text-xl hover:text-black">
+          <button
+            onClick={handlePrevious}
+            className="text-lg sm:text-xl hover:text-black"
+          >
             Previous
           </button>
-          <img src="/long-arrow.png" alt="long arrow" />
-          <button onClick={handleNext} className="text-xl hover:text-black">
+          <img
+            src="/long-arrow.png"
+            alt="long arrow"
+            className="w-24 sm:w-72"
+          />
+          <button
+            onClick={handleNext}
+            className="text-lg sm:text-xl hover:text-black"
+          >
             Next
           </button>
         </div>

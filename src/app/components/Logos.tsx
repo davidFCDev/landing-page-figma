@@ -3,7 +3,7 @@ import CarrouselLogoTwo from "./CarrouselLogoTwo";
 
 const Logos = () => {
   return (
-    <div className="flex w-full z-0 relative justify-start items-center">
+    <div className="flex w-full z-0 relative justify-start items-center py-20">
       <img
         src="/logos-texture.png"
         alt="logos-texture"
