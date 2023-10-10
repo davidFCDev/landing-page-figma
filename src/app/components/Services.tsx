@@ -15,7 +15,7 @@ const Services = () => {
       <img
         src="/texture-bg.png"
         alt="bg-texture"
-        className="w-full bg-green z-0 rounded-b-[200px] relative"
+        className="w-full bg-green z-0 rounded-b-[100px] sm:rounded-b-[200px] relative"
       />
       <img
         src="/horizontal-arrow.png"
@@ -25,10 +25,10 @@ const Services = () => {
 
       <div className="z-30 absolute flex flex-col w-full justify-center items-center gap-24 pt-52">
         <div className="text-center flex flex-col gap-4">
-          <h4 className="font-rubik text-gray2 uppercase font-semibold tracking-[.3em]">
+          <h4 className="font-rubik text-gray2 uppercase font-semibold tracking-[.3em] text-sm sm:text-xl">
             OUR SERVICES
           </h4>
-          <h1 className="font-averia font-bold text-8xl text-white">
+          <h1 className="font-averia font-bold text-5xl sm:text-8xl text-white">
             What we offer
           </h1>
         </div>
@@ -37,12 +37,16 @@ const Services = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={inView ? animationOptions : {}}
           ref={ref}
-          className="grid grid-cols-2 gap-10 font-averia"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-10 font-averia"
         >
-          <div className="flex items-start gap-4 w-[500px] py-8 px-10 bg-green2 rounded-2xl">
-            <img src="/Icons/info-icon.png" alt="info-icon" />
+          <div className="flex items-start gap-2 sm:gap-4 w-[350px] sm:w-[500px] py-3 sm:py-8 px-5 sm:px-10 bg-green2 rounded-2xl">
+            <img
+              src="/Icons/info-icon.png"
+              alt="info-icon"
+              className="w-10 sm:w-20"
+            />
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl font-semibold tracking-wider">
+              <h2 className="text-white text-2xl sm:text-3xl font-averia font-semibold tracking-wider">
                 Information
               </h2>
               <p className="text-gray2 tracking-wide">
@@ -52,10 +56,15 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-4 w-[500px] py-8 px-10 bg-green2 rounded-2xl">
-            <img src="/Icons/hand-icon.png" alt="hand-icon" />
+
+          <div className="flex items-start gap-2 sm:gap-4 w-[350px] sm:w-[500px] py-3 sm:py-8 px-5 sm:px-10 bg-green2 rounded-2xl">
+            <img
+              src="/Icons/hand-icon.png"
+              alt="hand-icon"
+              className="w-10 sm:w-20"
+            />
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl font-averia font-semibold tracking-wider">
+              <h2 className="text-white text-2xl sm:text-3xl font-averia font-semibold tracking-wider">
                 Support
               </h2>
               <p className="text-gray2 tracking-wide">
@@ -65,10 +74,15 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-4 w-[500px] py-8 px-10 bg-green2 rounded-2xl">
-            <img src="/Icons/book-icon.png" alt="book-icon" />
+
+          <div className="flex items-start gap-2 sm:gap-4 w-[350px] sm:w-[500px] py-3 sm:py-8 px-5 sm:px-10 bg-green2 rounded-2xl">
+            <img
+              src="/Icons/book-icon.png"
+              alt="book-icon"
+              className="w-10 sm:w-20"
+            />
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl font-averia font-semibold tracking-wider">
+              <h2 className="text-white text-2xl sm:text-3xl font-averia font-semibold tracking-wider">
                 Guidance
               </h2>
               <p className="text-gray2 tracking-wide">
@@ -78,10 +92,15 @@ const Services = () => {
               </p>
             </div>
           </div>
-          <div className="flex items-start gap-4 w-[500px] py-8 px-10 bg-green2 rounded-2xl">
-            <img src="/Icons/question-icon.png" alt="question-icon" />
+
+          <div className="flex items-start gap-2 sm:gap-4 w-[350px] sm:w-[500px] py-3 sm:py-8 px-5 sm:px-10 bg-green2 rounded-2xl">
+            <img
+              src="/Icons/question-icon.png"
+              alt="question-icon"
+              className="w-10 sm:w-20"
+            />
             <div className="flex flex-col gap-4">
-              <h2 className="text-white text-3xl font-averia font-semibold tracking-wider">
+              <h2 className="text-white text-2xl sm:text-3xl font-averia font-semibold tracking-wider">
                 Education
               </h2>
               <p className="text-gray2 tracking-wide">

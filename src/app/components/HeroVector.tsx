@@ -4,9 +4,9 @@ const HeroVector = () => {
       <img
         src="/semicircle-texture.png"
         alt="semicircle-texture"
-        className="w-full bg-green rounded-t-full relative z-0"
+        className="w-full bg-green rounded-t-full relative z-0 border-t"
       />
-      <img src="/lightbulb.png" alt="lightbulb" className="z-30 absolute pt-28" />
+      <img src="/lightbulb.png" alt="lightbulb" className="z-30 absolute pt-20 sm:pl-8 w-[200px] sm:w-[540px]" />
     </div>
   );
 };
