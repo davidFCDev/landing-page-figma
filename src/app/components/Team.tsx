@@ -3,6 +3,7 @@ import CarrouselTeamTwo from "./CarrouselTeamTwo";
 import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 
+
 const Team = () => {
   const animationOptions = {
     opacity: 1,
