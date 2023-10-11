@@ -16,14 +16,14 @@ const Team = () => {
   const [ref3, inView3] = useInView({ threshold: 0.5, triggerOnce: true });
 
   return (
-    <div className="flex flex-col w-full justify-center items-center gap-24 py-20 sm:py-40">
-      <h1 className="text-4xl sm:text-6xl font-averia font-semibold w-[300px] sm:w-[500px] text-center leading-[1.2em] sm:leading-[1.3em] tracking-wide">
+    <div className="flex flex-col w-full justify-center items-center gap-24 py-20 lg:py-40">
+      <h1 className="text-4xl lg:text-6xl font-averia font-semibold w-[300px] lg:w-[500px] text-center leading-[1.2em] lg:leading-[1.3em] tracking-wide">
         You'll be in good company!
       </h1>
 
       <div className="flex flex-col items-center justify-center gap-20 w-full">
         <div className="flex flex-col items-center justify-center gap-14 w-full px-10">
-          <div className="flex flex-col gap-14 sm:gap-24 sm:flex-row justify-center w-full">
+          <div className="flex flex-col gap-14 lg:gap-24 sm:flex-row justify-center w-full">
             <motion.div
               initial={{ opacity: 0, x: 50 }}
               animate={inView1 ? animationOptions : {}}
@@ -33,19 +33,19 @@ const Team = () => {
               <img
                 src="/users/user1.png"
                 alt="user1"
-                className="rounded-full w-32 sm:w-48"
+                className="rounded-full w-32 lg:w-48"
               />
               <div className="flex flex-col gap-2 justify-start w-[200px] sm:w-[250px]">
-                <h3 className="font-averiaLibre text-2xl sm:text-3xl font-semibold">
+                <h3 className="font-averiaLibre text-2xl lg:text-3xl font-semibold">
                   David Hankin
                 </h3>
-                <p className="font-averia text-sm sm:text-lg">
+                <p className="font-averia text-sm lg:text-lg">
                   PE Studies Senior Lecturer with over 13 years of experience
                 </p>
                 <img
                   src="/Signature/signature1.png"
                   alt="signature1"
-                  className="w-24"
+                  className="w-16 lg:w-24"
                 />
               </div>
             </motion.div>
@@ -58,19 +58,19 @@ const Team = () => {
               <img
                 src="/users/user2.png"
                 alt="user2"
-                className="rounded-full w-32 sm:w-48"
+                className="rounded-full w-32 lg:w-48"
               />
               <div className="flex flex-col gap-2 justify-start w-[200px] sm:w-[250px]">
-                <h3 className="font-averiaLibre text-2xl sm:text-3xl font-semibold">
+                <h3 className="font-averiaLibre text-2xl lg:text-3xl font-semibold">
                   Emily Chater
                 </h3>
-                <p className="font-averia text-sm sm:text-lg">
+                <p className="font-averia text-sm lg:text-lg">
                   Chemistry teacher with a 16 years of teaching experience
                 </p>
                 <img
                   src="/Signature/signature1.png"
                   alt="signature1"
-                  className="w-24"
+                  className="w-16 lg:w-24"
                 />
               </div>
             </motion.div>
@@ -85,25 +85,25 @@ const Team = () => {
             <img
               src="/users/user3.png"
               alt="user3"
-              className="rounded-full w-32 sm:w-48"
+              className="rounded-full w-32 lg:w-48"
             />
             <div className="flex flex-col gap-2 justify-start w-[200px] sm:w-[250px]">
-              <h3 className="font-averiaLibre text-2xl sm:text-3xl font-semibold">
+              <h3 className="font-averiaLibre text-2xl lg:text-3xl font-semibold">
                 Sarah Langley
               </h3>
-              <p className="font-averia text-sm sm:text-lg">
+              <p className="font-averia text-sm lg:text-lg">
                 Psychology Senior Lecturer with over 10 years of experience
               </p>
               <img
                 src="/Signature/signature1.png"
                 alt="signature1"
-                className="w-24"
+                className="w-16 lg:w-24"
               />
             </div>
           </motion.div>
         </div>
 
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 sm:gap-4 lg:gap-6">
           <CarrouselTeamOne />
           <CarrouselTeamTwo />
         </div>

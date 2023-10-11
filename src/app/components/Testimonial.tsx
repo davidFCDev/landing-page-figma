@@ -4,15 +4,15 @@ import TestimonialCard from "./TestimonialCard";
 
 const Testimonial = () => {
   return (
-    <div className="flex flex-col sm:flex-row gap-20 sm:gap-10 px-10 sm:px-20 py-32 sm:py-48 justify-center items-center">
-      <div className="flex flex-col gap-4 sm:w-[40%]">
-        <h3 className="text-green font-bold text-2xl tracking-[0.3em] font-rubik">
+    <div className="flex flex-col sm:flex-row gap-20 sm:gap-10 px-10 sm:px-0 py-32 lg:py-48 justify-center items-center">
+      <div className="flex flex-col gap-4 sm:w-[37%] lg:w-[40%]">
+        <h3 className="text-green font-bold text-xl lg:text-2xl tracking-[0.3em] font-rubik">
           TESTIMONIALS
         </h3>
-        <h1 className="text-5xl sm:text-6xl font-bold leading-[1.1em] sm:leading-[1.3em] tracking-wide font-averiaLibre">
+        <h1 className="text-5xl sm:text-3xl lg:text-6xl font-bold leading-[1.1em] sm:leading-[1.3em] tracking-wide font-averiaLibre">
           Our community loves Edufy
         </h1>
-        <p className="text-xl text-dark font-semibold font-avaria">
+        <p className="text-xl sm:text-lg lg:text-xl text-dark font-semibold font-avaria">
           In recent times, there has been a notable shift as people increasingly
           embrace and prioritize education of their children.
         </p>
