@@ -27,10 +27,10 @@ const Logos = () => {
           />
         </div>
 
-        <div className="flex flex-col gap-2 sm:gap-5">
+        {/* <div className="flex flex-col gap-2 sm:gap-5">
           <CarrouselLogoOne />
           <CarrouselLogoTwo />
-        </div>
+        </div> */}
       </div>
     </div>
   );
