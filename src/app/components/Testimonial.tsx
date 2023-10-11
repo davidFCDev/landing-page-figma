@@ -9,7 +9,7 @@ const Testimonial = () => {
         <h3 className="text-green font-bold text-2xl tracking-[0.3em] font-rubik">
           TESTIMONIALS
         </h3>
-        <h1 className="text-5xl sm:text-6xl font-bold leading-[1.1em] sm:leading-[1.3em] tracking-wide font-averia">
+        <h1 className="text-5xl sm:text-6xl font-bold leading-[1.1em] sm:leading-[1.3em] tracking-wide font-averiaLibre">
           Our community loves Edufy
         </h1>
         <p className="text-xl text-dark font-semibold font-avaria">

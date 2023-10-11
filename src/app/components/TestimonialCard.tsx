@@ -38,7 +38,7 @@ const TestimonialCard = () => {
           key={currentUser.id}
           className="flex flex-col gap-10 sm:gap-14"
         >
-          <h2 className="text-2xl sm:text-4xl font-averia font-semibold text-center tracking-[1px] leading-[35px] sm:leading-[60px] px-8 sm:px-20">
+          <h2 className="text-2xl sm:text-4xl font-averiaLibre font-semibold text-center tracking-[1px] leading-[35px] sm:leading-[60px] px-8 sm:px-20">
             {currentUser.text}
           </h2>
 
