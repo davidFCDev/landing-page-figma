@@ -16,7 +16,7 @@ const Team = () => {
   const [ref3, inView3] = useInView({ threshold: 0.5, triggerOnce: true });
 
   return (
-    <div className="flex flex-col w-full justify-center items-center gap-24 py-40">
+    <div className="flex flex-col w-full justify-center items-center gap-24 py-20 sm:py-40">
       <h1 className="text-4xl sm:text-6xl font-averia font-semibold w-[300px] sm:w-[500px] text-center leading-[1.2em] sm:leading-[1.3em] tracking-wide">
         You'll be in good company!
       </h1>

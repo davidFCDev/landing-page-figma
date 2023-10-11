@@ -17,6 +17,7 @@ const config: Config = {
         yellow: "#FFC102",
         palid: "#F4E2D8",
         palid2: "rgba(243, 234, 218, 0.37)",
+        palid3: "#F9F3E8",
         gray: "#6E6D7A",
         gray2: "rgba(255, 255, 255, 0.60)",
         gray3: "rgba(37, 37, 37, 0.80)",

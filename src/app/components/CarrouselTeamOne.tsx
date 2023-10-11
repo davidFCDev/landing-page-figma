@@ -31,7 +31,7 @@ const CarrouselTeamOne = () => {
         initial={{ opacity: 0 }}
         animate={inView2 ? animationOptions : {}}
         ref={ref2}
-        className="bg-palid2 w-[22rem] sm:w-[26rem] h-[9.25rem] flex gap-4 px-5 justify-start items-center rounded-[2em]"
+        className="bg-palid3 sm:bg-palid2 w-[22rem] sm:w-[26rem] h-[9.25rem] flex gap-4 px-5 justify-start items-center rounded-[2em]"
       >
         <img src="/avatar.png" alt="avatar" className="w-20 sm:w-24" />
         <div className="flex flex-col gap-2">
@@ -57,7 +57,7 @@ const CarrouselTeamOne = () => {
         initial={{ opacity: 0 }}
         animate={inView4 ? animationOptions : {}}
         ref={ref4}
-        className="bg-palid2 w-[22rem] sm:w-[26rem] h-[9.25rem] flex gap-4 px-5 justify-start items-center rounded-[2em]"
+        className="bg-palid3 sm:bg-palid2 w-[22rem] sm:w-[26rem] h-[9.25rem] flex gap-4 px-5 justify-start items-center rounded-[2em]"
       >
         <img src="/avatar.png" alt="avatar" className="w-20 sm:w-24" />
         <div className="flex flex-col gap-2">
