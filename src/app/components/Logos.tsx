@@ -10,7 +10,7 @@ const Logos = () => {
         className="z-10 relative bg-green rounded-[20px] lg:rounded-[150px] w-full h-[380px] sm:h-[520px] lg:h-[950px]"
       />
 
-      <div className="z-20 absolute flex flex-col gap-16 sm:gap-24 lg:gap-32">
+      <div className="z-20 absolute flex flex-col gap-16 sm:gap-24 lg:gap-32 w-full">
         <div className="text-white px-8 sm:px-20 flex items-start w-full relative">
           <div className="flex flex-col gap-2 sm:gap-5 w-[300px] sm:w-[450px] lg:w-[700px]">
             <h4 className="text-xs lg:text-xl uppercase font-rubik font-semibold tracking-[0.3em]">
@@ -27,7 +27,7 @@ const Logos = () => {
           />
         </div>
 
-        <div className="flex flex-col gap-2 sm:gap-3 lg:gap-5 ">
+        <div className="flex flex-col w-full gap-2 sm:gap-4 lg:gap-5 justify-center items-center overflow-x-hidden">
           <CarrouselLogoOne />
           <CarrouselLogoTwo />
         </div>
