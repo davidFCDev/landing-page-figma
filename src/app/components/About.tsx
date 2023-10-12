@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <div className="flex bg-palid text-white font-averia w-full justify-center items-center z-0 relative py-20 rounded-[40px] sm:rounded-[100px] lg:rounded-[200px]">
+    <div
+      id="about"
+      className="overflow-x-hidden flex bg-palid text-white font-averia w-full justify-center items-center z-0 relative py-20 rounded-[40px] sm:rounded-[100px] lg:rounded-[200px]"
+    >
       <img
         src="/map.png"
         alt="map"

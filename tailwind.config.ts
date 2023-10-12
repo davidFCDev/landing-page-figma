@@ -15,6 +15,7 @@ const config: Config = {
         orange: "#E3723B",
         orange2: "#f89360",
         yellow: "#FFC102",
+        dimWhite: "#FDFDFD",
         palid: "#F4E2D8",
         palid2: "rgba(243, 234, 218, 0.37)",
         palid3: "#F9F3E8",

@@ -11,7 +11,7 @@ const Services = () => {
   const [ref, inView] = useInView({ threshold: 0.5, triggerOnce: true });
 
   return (
-    <div className="w-full flex">
+    <div id="services" className="w-full flex overflow-x-hidden">
       <img
         src="/texture-bg.png"
         alt="bg-texture"
@@ -37,7 +37,7 @@ const Services = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={inView ? animationOptions : {}}
           ref={ref}
-          className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-10 font-averia"
+          className="grid grid-cols-1 sm:grid-cols-2 gap-5 lg:gap-10 font-averia overflow-x-hidden"
         >
           <div className="flex items-start gap-3 sm:gap-4 w-[350px] lg:w-[500px] py-5 lg:py-8 px-8 sm:px-5 lg:px-10 bg-green2 rounded-2xl">
             <img

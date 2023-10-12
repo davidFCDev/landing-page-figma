@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <div className="flex flex-col py-32 lg:py-48 gap-12 sm:gap-16 lg:gap-28 items-center w-full text-center">
+    <div className="overflow-x-hidden flex flex-col py-32 lg:py-48 gap-12 sm:gap-16 lg:gap-28 items-center w-full text-center">
       <h2 className="text-5xl lg:text-7xl font-averia font-bold tracking-wide pb-16">
         How it works?
       </h2>
